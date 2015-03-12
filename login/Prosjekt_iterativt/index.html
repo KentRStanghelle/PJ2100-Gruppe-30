@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
+
+@media only screen and (orientation: portrait)  {
+#animasjon{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	max-width: 640px;
+	max-height: 960px;
+	overflow: hidden;
+
+}
+
+#content{
+	width: 100%;
+	top: -250px;
+	left: -50px;
+	max-width: 500px;
+	min-width: 300px;
+	position: absolute;
+	
+}
+#plassering{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	max-width: 200px;
+	max-height: 125px;
+	bottom: 35%;
+	left: 80px;
+}
+#boks{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	max-width: 200px;
+	max-height: 125px;
+	bottom: 0%;
+	left: 0px;
+	background-color: rgb(230,0,0);
+	border-style: solid;
+    border-width: 100%;
+    border-max-width: 5px;
+    border-color: rgb(200,0,0);
+    border-radius: 15%;
+}
+
+#boks:target {
+    -webkit-animation: loginScreen 0.3s linear 0s 1 normal forwards running;
+  }
+@-webkit-keyframes loginScreen {
+	0% {
+		left: 0px;
+	}
+	100%{
+		left: -300px;
+	}
+}
+#login{
+	bottom: -10px;
+	left: 260px;
+	position: absolute;
+}
+
+#boks:hover{
+	background-color: rgb(180,0,0);
+}
+#tekst{
+	margin: auto;
+	left: 10px;
+	position: absolute;
+	bottom: 105px;
+}
+#tekst_2{
+	position: relative;
+	left: 20%;
+	top: 20%;
+}
+
+
+a{
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+	top: 20px;
+	position: absolute;
+	text-decoration: none;
+}
+}
+
+@media only screen and (orientation: landscape)  {
+#animasjon{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	max-width: 960px;
+	max-height: 640px;
+	overflow: hidden;
+
+}
+
+#content{
+	width: 100%;
+	top: -100px;
+	left: -370px;
+	max-width: 500px;
+	min-width: 350px;
+	position: absolute;
+	
+}
+#plassering{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	max-width: 200px;
+	max-height: 125px;
+	bottom: 35%;
+	left: 320px;
+}
+#boks{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	max-width: 200px;
+	max-height: 125px;
+	bottom: 0%;
+	left: 0px;
+	background-color: rgb(230,0,0);
+	border-style: solid;
+    border-width: 100%;
+    border-max-width: 5px;
+    border-color: rgb(200,0,0);
+    border-radius: 15%;
+}
+
+
+#login{
+	bottom: 220px;
+	left: -15px;
+	position: absolute;
+}
+
+#boks:hover{
+	background-color: rgb(180,0,0);
+}
+#tekst{
+	margin: auto;
+	left: 18px;
+	position: relative;
+	bottom: 130px;
+}
+#tekst_2{
+	position: relative;
+	left: 20%;
+	top: 20%;
+}
+h1{
+	position: absolute;
+	top: 30px;
+}
+a{
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+	top: 20px;
+	position: absolute;
+	text-decoration: none;
+}
+}
+
+
+@media only screen  and (min-device-width: 501px) {
+	#animasjon{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	max-width: 640px;
+	max-height: 960px;
+	overflow: hidden;
+}
+
+#content{
+	width: 100%;
+	top: -500px;
+	left: -100px;
+	max-width: 700px;
+	min-width: 500px;
+	position: absolute;
+	
+}
+#plassering{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	max-width: 300px;
+	max-height: 200px;
+	bottom: 20%;
+	left: 80px;
+}
+
+#boks{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	max-width: 300px;
+	max-height: 200px;
+	bottom: 0%;
+	left: 0px;
+	background-color: rgb(230,0,0);
+	border-style: solid;
+    border-width: 100%;
+    border-max-width: 5px;
+    border-color: rgb(200,0,0);
+    border-radius: 15%;
+}
+#login{
+	bottom: 40px;
+	left: 540px;
+	position: absolute;
+}
+
+#boks:hover{
+	background-color: rgb(180,0,0);
+	
+}
+#boks:target {
+    -webkit-animation: loginScreen 0.3s linear 0s 1 normal forwards running;
+  }
+@-webkit-keyframes loginScreen {
+	0% {
+		left: 0px;
+	}
+	100%{
+		left: -540px;
+	}
+}
+#tekst{
+	margin: auto;
+	left: 18px;
+	position: relative;
+	bottom: 200px;
+}
+#tekst_2{
+	position: relative;
+	left: 20%;
+	top: 20%;
+	}
+h1{
+	font-size: 3em;
+	position: absolute;
+	top: 100px;
+}
+
+a{
+	color: rgb(0, 0, 0);
+	font-size: 3em;
+	top: 20px;
+	position: absolute;
+	text-decoration: none;
+}
+}
+</style>
+</head>
+
+<body>
+<div id="animasjon">
+	<div id="plassering">
+	<div id="boks">
+		<div id="tekst_2"><a href="#boks">Logg inn</a></div>
+		<div id="tekst"><h1> Velkommen!</h1></div>
+		
+		<div id="login">
+			<form method="POST">
+				Username: </br><input type="text" name="username"><br />
+				Password: </br><input type="password" name="password"><br />
+    			<input type="submit" value="login">
+			</form>
+
+		</div>
+
+	</div>
+	<img id="content" src="http://ambisjoner.no/wp-content/uploads/2015/01/Westerdals-logo1.jpg" alt="logo">
+	</div>
+</div>
+
+</body>
+
+</html> 

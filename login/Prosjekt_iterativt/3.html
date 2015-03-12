@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
+@media only screen and (orientation: portrait){
+	#mainWrap{
+	min-height: 480px;
+	max-height: 960px;
+	background-color: green;
+	position: relative;
+	margin: auto;
+}
+
+	#logo{
+	top: 10px;
+	position: absolute;
+	margin-left: 40%;
+	width: 15%;
+		}
+
+	#inputField1{
+	margin: auto;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+		}
+	#inputField2{
+	margin: auto;
+	position: absolute;
+	left: 45%;
+	top:65%;
+		}
+	#text1{
+	position: absolute;
+
+	left: -370%;
+		}
+	#text2{
+	position: absolute;
+	left: -210%;
+		  }
+}
+
+@media only screen and (orientation: landscape){
+	#mainWrap{
+	min-height: 480px;
+	max-height: 960px;
+	background-color: red;
+	position: relative;
+	margin: auto;
+}
+
+	#logo{
+	top: 10px;
+	position: absolute;
+	margin-left: 10%;
+	width: 40%;
+		}
+
+	#inputField1{
+	margin: auto;
+	position: absolute;
+	left: 65%;
+		}
+	#inputField2{
+	margin: auto;
+	position: absolute;
+	left: 65%;
+	top:23%;
+		}
+	#text1{
+	position: absolute;
+	left: -300%;
+		}
+	#text2{
+	position: absolute;
+	left: -210%;
+		  }
+}
+@media only screen and (min-device-width: 800px){
+#mainWrap{
+	min-height: 480px;
+	max-height: 960px;
+	background-color: blue;
+	position: relative;
+	margin: auto;
+}
+
+	#logo{
+	top: 10px;
+	position: absolute;
+	margin-left: 40%;
+	width: 100%;
+	max-width: 700px;
+	min-width: 500px;
+		}
+
+	#inputField1{
+	margin: auto;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+		}
+	#inputField2{
+	margin: auto;
+	position: absolute;
+	left: 45%;
+	top:65%;
+		}
+	#text1{
+	position: absolute;
+	bottom: -20%;
+	left: -300%;
+		}
+	#text2{
+	position: absolute;
+	left: -210%;
+		  }
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+	<div id="mainWrap">
+			<img id="logo" src="http://ambisjoner.no/wp-content/uploads/2015/01/Westerdals-logo1.jpg" alt="logo">
+		<div id="inputField1">
+
+			<div id="text1">
+				<p>Hvor mange</p>
+				<p>studenter?</p>
+			</div>
+			<form action="">
+				<input type="radio" name="dag" value="to">2<br>
+				<input type="radio" name="dag" value="tre">3<br>
+				<input type="radio" name="dag" value="fire">4
+			</form>
+		</div>
+		<div id="inputField2">
+
+
+			<div id="text2">
+				<p>Prosjektor?</p>
+			</div>
+			
+			<form action="">
+				<input type="radio" name="prosjektor" value="ja">ja<br>
+				<input type="radio" name="prosjektor" value="nei">nei
+			</form>
+		</div>
+
+	</div>
+</body>
+
+</html> 
