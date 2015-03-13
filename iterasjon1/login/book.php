@@ -18,7 +18,7 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
 
 }
 
-#content{
+#logo{
     width: 100%;
     top: -250px;
     left: -50px;
@@ -42,7 +42,7 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
 
 }
 
-#content{
+#logo{
     width: 100%;
     top: -60px;
     left: -370px;
@@ -76,7 +76,7 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
     text-align: center;
 }
 
-#content{
+#logo{
     width: 100%;
     top: -500px;
     left: -100px;
@@ -106,7 +106,7 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
 <body>
 <div id="animasjon">
     <div id="plassering">
-    <img id="content" src="http://ambisjoner.no/wp-content/uploads/2015/01/Westerdals-logo1.jpg" alt="logo">
+    <a href="index.php"><img id="logo" src="http://ambisjoner.no/wp-content/uploads/2015/01/Westerdals-logo1.jpg" alt="logo"></a>
 
 <h1>Book rom</h1>
 <form method="POST">

@@ -18,7 +18,7 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
 
 }
 
-#content{
+#logo{
 	width: 100%;
 	top: -250px;
 	left: -50px;
@@ -42,7 +42,7 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
 
 }
 
-#content{
+#logo{
 	width: 100%;
 	top: -60px;
 	left: -370px;
@@ -76,10 +76,10 @@ html, body { padding: 0; margin: 0; height: 100%; width: 100%; }
 	text-align: center;
 }
 
-#content{
+#logo{
 	width: 100%;
 	top: -500px;
-	left: -100px;
+	left: -150px;
 	max-width: 700px;
 	min-width: 500px;
 	position: absolute;
@@ -141,7 +141,7 @@ a{
 	<div id="plassering">
 		<div id="box">
 		<div id="text"><h1> Velkommen!</h1></div>
-	<img id="content" src="http://ambisjoner.no/wp-content/uploads/2015/01/Westerdals-logo1.jpg" alt="logo">
+	<a href="index.php"><img id="logo" src="http://ambisjoner.no/wp-content/uploads/2015/01/Westerdals-logo1.jpg" alt="logo"></a>
 <?php
 
 session_start();
